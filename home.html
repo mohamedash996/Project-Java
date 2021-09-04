@@ -1,17 +1,62 @@
-html>
+<html>
 
 <head>
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     
     <title>Login</title>
 </head>
 
 <body id="home">
-    <nav class="navbar navbar-expand-lg navbar-dark group">
+    <nav class="navbar navbar-expand-lg navbar-light group py-1  fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img class="logo-img" src="image/smart-logo.svg" alt="Smart Communications Inc.,">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 py-3 mx-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Postpaid</a> 
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Prepaid</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Bro</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">International</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Help</a>
+              </li>
+            </ul>
+            <div id="sso-btn" class="m-auto ">
+                <i class="far fa-user mx-3"></i>
+                <i class="fab fa-github mx-3"></i>
+                <i class="fab fa-git-square mx-3"></i>
+                <i class="fab fa-amazon-pay mx-3"></i>
+            </div>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark group">
         <div class="container">
+        <!-- <div class="container">
             <a class="navbar-brand" href="#">SMART LOGIN</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -28,11 +73,11 @@ html>
                 </ul>
 
             </div>
-        </div>
-    </nav>
+        </div> -->
+    </nav> -->
     <div class="container my-5 text-center h-100 d-flex align-items-center">
         <div class="group m-auto w-75 p-5">
-            <h1 id="username"></h1>
+            <h1 id="username" class="Wsmart">Welcome Smart</h1>
         </div>
     </div>
 

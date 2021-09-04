@@ -8,3 +8,41 @@ box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;}
 h1{
     color: rgb(23, 162, 184);
 }
+
+
+#smart header#core-header #mainHeader .hamburger {
+    display: none;
+}
+
+
+/*  */
+.logo-img
+{
+    width: 130px;
+}
+
+.navbar-nav .nav-item a{
+    color: whitesmoke!important;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    
+}
+
+.navbar-nav .nav-item a:hover{
+    color: rgb(13, 95, 13)!important;
+}
+
+
+
+#sso-btn i{
+    font-size: 30px;
+    color: whitesmoke;
+    
+}
+
+.Wsmart{
+    font-family: 'Lobster', cursive;
+    color: yellow;
+    font-size: 50px;
+}
+/*  */
